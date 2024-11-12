@@ -13,12 +13,13 @@ Fork the exercises repository.
 
 Enable GitHub Actions for your forked repository.
 
-Visit: https://github.com/<YOUR_GITHUB_USERNAME>/exercises/actions
+Visit: https://github.com/\<YOUR_GITHUB_USERNAME\>/exercises/actions
 Clone your forked repository.
 
 You can verify that everything is done correctly by running the git remote -v command. The output of this command will look similar to the below:
 
 course https://github.com/aleacarde/dms-cs-lectures (fetch)
+
 course https://github.com/aleacarde/dms-cs-lectures (push)
 
 ### Asking for feedback
