@@ -6,13 +6,22 @@
 
 ## Setup for Windows
 
+Go to the `dms-cs.code-workspace` file at the top of the project directory, delete the section that says:
+
+`"python.defaultInterpreterPath": "./.venv/bin/python"`
+
+and uncomment (remove the two forward-slashes at the beginning of the line) the section right under the section you just deleted. You are looking for the line that says:
+
+`//"python.defaultInterpreterPath": ".\\.venv\\Scripts\\python.exe" // For Windows`
+
 First, open powershell and `cd` to the top of the project directory (assuming that powershell didn't already open there).
 
-
 Then run:
-`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass1
+
+`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass1`
 
 Lastly, run:
+
 `.\setup-python-env.ps1`
 
 ## Working with these exercises

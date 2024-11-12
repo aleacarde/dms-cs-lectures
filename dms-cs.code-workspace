@@ -14,7 +14,7 @@
         },
         
         "python.defaultInterpreterPath": "./.venv/bin/python"
-        // "python.defaultInterpreterPath": ".\\.venv\\Scripts\\python.exe" // For Windows
+        //"python.defaultInterpreterPath": ".\\.venv\\Scripts\\python.exe" // For Windows
     },
     "extensions": {
         // Recommended extensions for this workspace
