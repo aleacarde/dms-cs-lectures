@@ -55,4 +55,4 @@ NOTE: This stage may require you to resolve conflicts.
 
 Push local changes to your own fork.
 
-git push origin main --force
+`git push origin main --force`
