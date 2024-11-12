@@ -1,6 +1,7 @@
 # dms-cs-lectures
 
 *Structure inspired by [this great haskell course](https://github.com/haskell-beginners-2022/exercises)*
+
 *This readme is also adapted from there because I like it.*
 
 ## Working with these exercises
