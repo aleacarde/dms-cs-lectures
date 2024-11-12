@@ -1,0 +1,1 @@
+from src.Lecture1.Exercise1 import IntegerNumber

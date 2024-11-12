@@ -4,6 +4,17 @@
 
 *This readme is also adapted from there because I like it.*
 
+## Setup for Windows
+
+First, open powershell and `cd` to the top of the project directory (assuming that powershell didn't already open there).
+
+
+Then run:
+`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass1
+
+Lastly, run:
+`.\setup-python-env.ps1`
+
 ## Working with these exercises
 This section contains instructions about setting up the development environment and preparing this repository.
 Exerises are in the src directory. Each module provides exercises for an individual lecture and has the corresponding name (e.g. Lecture1.py).
@@ -20,14 +31,14 @@ Clone your forked repository.
 You can verify that everything is done correctly by running the `git remote -v` command. The output of this command will look similar to the below:
 
 ```
-course https://github.com/aleacarde/dms-cs-lectures` (fetch)
-course https://github.com/aleacarde/dms-cs-lectures` (push)
+origin https://github.com/aleacarde/dms-cs-lectures` (fetch)
+origin https://github.com/aleacarde/dms-cs-lectures` (push)
 ```
 
 ### Asking for feedback
 Implement your solutions in a separate branch (not main). You can run the following command to create a new branch and switch to it at the same time:
 
-`git checkout -b lecture-1-solutions`
+`git checkout -b lecture-1-exercises`
 
 When you have finished implementing exercises for a particular lecture, create a Pull Request **to your fork**.
 

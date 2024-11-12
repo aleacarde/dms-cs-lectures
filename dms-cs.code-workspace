@@ -1,0 +1,30 @@
+{
+    "folders": [
+        {
+          "path": "."
+        }
+    ],
+    "settings": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "python.formatting.provider": "black",
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/dist": true
+        },
+        
+        "python.defaultInterpreterPath": "./.venv/bin/python"
+        // "python.defaultInterpreterPath": ".\\.venv\\Scripts\\python.exe" // For Windows
+    },
+    "extensions": {
+        // Recommended extensions for this workspace
+        "recommendations": [
+            "DavidWang.ini-for-vscode",
+            "eamodio.gitlens",
+            "donjayamanne.githistory",
+            "github.vscode-github-actions",
+            "ms-python.python",
+            "AykutSarac.jsoncrack-vscode"
+        ]
+    }
+}
