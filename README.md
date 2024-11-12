@@ -19,9 +19,10 @@ Clone your forked repository.
 
 You can verify that everything is done correctly by running the `git remote -v` command. The output of this command will look similar to the below:
 
-course https://github.com/aleacarde/dms-cs-lectures (fetch)
-
-course https://github.com/aleacarde/dms-cs-lectures (push)
+```
+course https://github.com/aleacarde/dms-cs-lectures` (fetch)
+course https://github.com/aleacarde/dms-cs-lectures` (push)
+```
 
 ### Asking for feedback
 Implement your solutions in a separate branch (not main). You can run the following command to create a new branch and switch to it at the same time:
