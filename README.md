@@ -9,7 +9,7 @@ This section contains instructions about setting up the development environment 
 Exerises are in the src directory. Each module provides exercises for an individual lecture and has the corresponding name (e.g. Lecture1.py).
 
 ### First time
-Fork the exercises repository.
+Fork this repository.
 
 Enable GitHub Actions for your forked repository.
 
