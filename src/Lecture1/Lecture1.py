@@ -1,4 +1,4 @@
-# Peano Arithmeti
+# Peano Axioms
 from typing import Self, Generator
 
 
