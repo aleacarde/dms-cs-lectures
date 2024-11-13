@@ -77,8 +77,8 @@ git pull --rebase --prune
 ```
 Fetch all the course changes and save them locally.
 ```
-git fetch origin main
-git rebase origin/main
+git fetch course main
+git rebase course/main
 ```
 NOTE: This stage may require you to resolve conflicts.
 
