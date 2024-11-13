@@ -20,8 +20,8 @@ Clone your forked repository.
 You can verify that everything is done correctly by running the `git remote -v` command. The output of this command will look similar to the below:
 
 ```
-origin https://github.com/aleacarde/dms-cs-lectures` (fetch)
-origin https://github.com/aleacarde/dms-cs-lectures` (push)
+origin https://github.com/aleacarde/dms-cs-lectures.git (fetch)
+origin https://github.com/aleacarde/dms-cs-lectures.git (push)
 ```
 
 ## Setup for Windows
