@@ -17,11 +17,19 @@ Visit: `https://github.com/<YOUR_GITHUB_USERNAME>/dms-cs-lectures/`
 
 Clone your forked repository.
 
+Enter your local repo directory and add the original repository as a course remote.
+
+`git remote add course https://github.com/aleacarde/dms-cs-lectures.git`
+
+You can verify that everything is done correctly by running the git remote -v command. The output of this command will look similar to the below:
+
 You can verify that everything is done correctly by running the `git remote -v` command. The output of this command will look similar to the below:
 
 ```
-origin https://github.com/aleacarde/dms-cs-lectures.git (fetch)
-origin https://github.com/aleacarde/dms-cs-lectures.git (push)
+course https://github.com/aleacarde/dms-cs-lectures.git (fetch)
+course https://github.com/aleacarde/dms-cs-lectures.git (push)
+origin https://github.com/<YOUR_GITHUB_USERNAME>/dms-cs-lectures.git (fetch)
+origin https://github.com/<YOUR_GITHUB_USERNAME>/dms-cs-lectures.git (push)
 ```
 
 ## Setup for Windows
