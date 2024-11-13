@@ -13,7 +13,7 @@ Fork this repository.
 
 Enable GitHub Actions for your forked repository.
 
-Visit: `https://github.com/<YOUR_GITHUB_USERNAME>/exercises/actions`
+Visit: `https://github.com/<YOUR_GITHUB_USERNAME>/dms-cs-lectures/`
 
 Clone your forked repository.
 
